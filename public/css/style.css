@@ -54,7 +54,15 @@ p {
 .row-white {
 	/*background-color: lightgrey;*/
 	/*-webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);*/
-	/*clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%);*/
+	/* clip-path: polygon(0 8%, 100% 4%, 100% 96%, 0% 100%); */
+	background: #1e73be;
+background: -moz-linear-gradient(top, #1e73be 0%, #1e93bd 23%, #1ea1be 53%, #1e93bd 83%, #1e73be 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #1e73be), color-stop(23%, #1e93bd), color-stop(53%, #1ea1be), color-stop(83%, #1e93bd), color-stop(100%, #1e73be));
+background: -webkit-linear-gradient(top, #1e73be 0%, #1e93bd 23%, #1ea1be 53%, #1e93bd 83%, #1e73be 100%);
+background: -o-linear-gradient(top, #1e73be 0%, #1e93bd 23%, #1ea1be 53%, #1e93bd 83%, #1e73be 100%);
+background: -ms-linear-gradient(top, #1e73be 0%, #1e93bd 23%, #1ea1be 53%, #1e93bd 83%, #1e73be 100%);
+background: linear-gradient(to bottom, #1e73be 0%, #1e93bd 23%, #1ea1be 53%, #1e93bd 83%, #1e73be 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e73be', endColorstr='#1e73be', GradientType=0 );
 	padding: 65px 10px;
 }
 
