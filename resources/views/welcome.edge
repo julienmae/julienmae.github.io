@@ -67,10 +67,10 @@
 
             <div class="row work-item-row">
               <div class="col-lg-8 col-lg-push-4">
-                <img src="img/mydeliverypal.png" class="img-responsive center-block">
+                <img src="img/track-task.png" class="img-responsive center-block">
               </div>
               <div class="col-lg-4 col-lg-pull-8">
-                <h2><a href="https://trackmiyens.com" target="blank">Track - Task</a></h2>
+                <h2><a href="https://trackmiyens.com" target="blank">Track | Task</a></h2>
                 <p>A web application for managing tasks. It keep track on your employees tasks and give you real-time updates.</p>
                 <h4>Technology</h4>
                 <p>Track is built on Laravel framework, with Vue as its frontend, and a node SocketIO that acts as a server for serving real-time data.</p>
@@ -147,8 +147,9 @@
 
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-    <script src="js/jquery-3.1.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
+    {{ script('js/jquery-3.1.0.min') }}
+    {{ script('js/bootstrap.min') }}
     <!-- <script src="js/myScripts.js"></script> -->
 
   </body>
