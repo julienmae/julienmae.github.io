@@ -48,8 +48,8 @@ Route.get('/', () => {
 		      <div class="text-center">
 		        <img src="img/25552047_136150920504233_8840929622962669965_n_2.jpg" width=200 class="profile-pic">
 		        <h1>Axl Ivan</h1>
-		        <h3>Mobile Developer</h3>
-		        <h5>Web Developer</h5>
+		        <h3>Software Engineer</h3>
+		        <h5></h5>
 		      </div>
 
 		      <div class="row row-grey">
