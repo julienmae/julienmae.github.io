@@ -18,7 +18,7 @@ const Route = use('Route')
 const Request = use('request')
 
 Route.get('/resume', ({ response }) => {
-	const url = 'https://raw.githubusercontent.com/axlivan/RESUME/master/RESUME.jpg'
+	const url = 'https://raw.githubusercontent.com/axlivan/RESUME/master/RESUME.pdf'
 	response.implicitEnd = false
 	Request
 		.get(url)
