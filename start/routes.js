@@ -15,7 +15,12 @@
 
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
+const Request = use('request')
 
-Route.get('/hello', () => {
-	return 'Hello, World!'
+Route.get('/resume', ({ response }) => {
+	const url = 'https://raw.githubusercontent.com/axlivan/RESUME/master/RESUME.jpg'
+	response.implicitEnd = false
+	Request
+		.get(url)
+		.pipe(response.response)
 })
